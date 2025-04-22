@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <form action="" method="get" enctype="multipart/form-data">
+
+        <input type="hidden" name="id" value="121234">
+
+
+        <label for="">Emri dhe Mbiemri</label> <br>
+        <input type="text" value="Egzon" disabled name="emri_mbiemri" placeholder="Emri dhe mbiemri"> <br>
+
+        <label for="">Email</label> <br>
+        <input type="email" name="email"> <br>
+
+        <label for="">Mosha</label> <br>
+        <input type="number" name="mosha"> <br>
+
+        <label for="">Gjinia</label> <br>
+        <input type="radio" name="gjinia" value="F"> Femer
+        <input type="radio" name="gjinia" value="M"> Mashkull
+        <br>
+
+        <label for="">Foto</label> <br>
+        <input type="file"name="file"> <br>
+
+        <label for="">Hobi</label> <br>
+        <input type="checkbox" name="hobi" value="leximi"> Leximi <br>
+        <input type="checkbox" name="hobi" value="vrapimi"> Vrapimi <br>
+        <input type="checkbox" name="hobi" value="kendimi"> Kendimi <br>
+        <input type="text" name="hobi" placeholder="Tjeter">
+
+        <br>
+        <label for="">Data e lindjes</label> <br>
+        <input type="date" name="dlindjes"> <br>
+
+
+        <label for="">Qyteti i lindjes</label> <br>
+
+
+        <select name="qyt_lindjes" id="">
+            <option value="" disabled selected>--Zgjedh Qytetin--</option>
+            <option value="1">Prishtine</option>
+            <option value="2">Ferizaj</option>
+            <option value="3">Peje</option>
+            <option value="4">Prizren</option>
+        </select>
+
+
+        <br>
+        <label for="">Komenti</label> <br>
+        <textarea name="komenti" id="" cols="30" rows="5">
+        </textarea> <br>
+
+
+        <!-- forma nuk behet submit
+        <input type="button" value="Apliko">
+        <button type="button">Apliko | Button</button>
+
+        form behet submit
+        <input type="submit" value="Apliko">
+        <button>Apliko | Button</button>
+        <button type="submit">Apliko | Button</button> -->
+
+        <button disabled>Apliko</button>
+
+    </form>
+
+
+    <h1>Shembull</h1>
+
+
+    <input type="text" placeholder="Shkruaj..."> <button>Kerko</button>
+
+</body>
+
+</html>
