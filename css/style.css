@@ -1,0 +1,80 @@
+/* selector {
+    property: value;
+}
+
+selector = ["id => #nameid","class => .className","tag => tag"]; */
+
+
+
+p, .text-red, #section1 {
+    color: bisque;
+}
+
+p {
+    color: red;
+    /* color: blue; */
+}
+
+.text-red {
+    color: blueviolet;
+}
+
+#section1 {
+    color: aqua;
+}
+
+.text-blue {
+    color: blue;
+}
+
+
+/* h4.text-blue {
+    color: coral;
+} */
+
+h4 .text-blue {
+    color: coral;
+}
+
+/* h4.text-blue a {
+
+} */
+
+
+
+.h3 {
+    color: aqua;
+}
+
+h3 {
+    color: red;
+
+}
+
+.text-brown {
+    color: darkmagenta;
+    /* color: rgb(255, 255, 255); */
+    /* color: rgba(255, 0, 0, 0.2); */
+
+    /*hexadecimal (16) => a=10, b=11, c=12, d=13, e=14 & f=15*/
+    color: #123534;
+    /* background-color: green; */
+}
+
+.text-style {
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* font-weight: bold; */
+    font-weight: unset;
+    font-style: italic;
+    /* text-decoration: overline; */
+    text-decoration: underline;
+    text-align: center;
+    /* text-transform: capitalize; */
+    /* text-transform: uppercase; */
+    text-transform: lowercase;
+    letter-spacing: 20px;
+    line-height: 40px;
+    word-spacing: 40px;
+    font-size: 20px;
+}
