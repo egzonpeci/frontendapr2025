@@ -1,0 +1,76 @@
+/* selector::pseudoelement{
+
+} */
+
+.part_1::after {
+    content: " pjesa e shtuar ne fund";
+    color: aqua;
+}
+
+.part_1::before {
+    content: "Pjesa e shtuar ne fillim ";
+    color: aqua;
+}
+
+.part_1::first-line {
+    background-color: brown;
+}
+
+.part_1::first-letter {
+    text-transform: capitalize;
+    font-size: 40px;
+}
+
+.part_1::selection {
+    color: blueviolet;
+    background-color: chartreuse;
+}
+
+/* 
+selector:pseudoclass
+{
+    property:value;
+} */
+
+
+a:active {
+    color: red;
+    text-decoration: none;
+}
+
+/* .f-child:first-child {
+    color: red;
+}
+.f-child:last-child {
+    color: yellow;
+} */
+
+.f-child:nth-child(2n) {
+    color: chocolate;
+}
+
+.f-child:nth-last-child(5n) {
+    color: red;
+}
+
+.f-child:hover {
+    /* font-size: 50px; */
+    background-color: blueviolet;
+}
+
+a:visited {
+    color: blue;
+}
+
+/* .element_odd_even:nth-child(2n) {
+    color: red;
+}
+.element_odd_even:nth-child(2n-1) {
+    color:blue;
+} */
+.element_odd_even:nth-child(even) {
+    color: red;
+}
+.element_odd_even:nth-child(odd) {
+    color:blue;
+}
