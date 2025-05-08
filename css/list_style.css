@@ -1,0 +1,90 @@
+li {
+    list-style-type: none;
+    list-style-type: upper-roman;
+    list-style-image: url('https://www.w3schools.com/cssref/sqpurple.gif');
+    list-style-position: inside;
+}
+
+.sub-menu {
+    display: none;
+}
+
+.show-submenu:hover .sub-menu {
+    display: block;
+}
+
+table, td {
+    border-bottom: 1px solid #f00;
+    border-collapse: collapse;
+}
+
+/* tr:nth-child(2n) {
+    background-color: blue;
+} */
+
+.chess-table {
+    border: 1px solid #ccc;
+}
+
+
+.chess-table, td {
+    border-bottom: unset;
+    margin-top: 10px;
+}
+
+
+.odd_row td, .even_row td {
+    width: 40px;
+    height: 40px;
+}
+
+.odd_row td:nth-child(odd) {
+    background-color: black;
+}
+
+.even_row td:nth-child(even) {
+    background-color: black;
+}
+
+.forms {
+    /* display: flex;
+    justify-content: center;
+    /* flex-direction: column;
+    text-align: center; */
+    width: 400px;
+    border: 1px solid #f00;
+    padding: 10px;
+
+}
+
+.d-block {
+    display: block;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    /* margin: 0px 20px; */
+    text-align: center;
+}
+
+.input:focus {
+    background-color: aqua;
+    color: red;
+    outline: none;
+    border-bottom: 1px solid #345;
+}
+
+.btn {
+    margin-top: 10px;
+    text-align: right;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+}
+
+.text-right {
+    text-align: right;
+    padding: 20px;
+}

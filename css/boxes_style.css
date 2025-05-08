@@ -9,7 +9,7 @@ html, body{
 }
 
 .box {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* height: 200px; */
     /* min-height: 200px;
     max-height: 400px; */
@@ -27,6 +27,7 @@ html, body{
     /* display: inline-block; */
     /* visibility: hidden; */
     /* margin: 20px auto;   */
+    box-shadow: 2px 5px 30px 1px #f00;
 }
 
 .box img {

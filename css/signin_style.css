@@ -1,0 +1,33 @@
+.signin-form {
+    width: 65%;
+    border: 1px solid #f00;
+    display: flex;
+    flex-wrap: wrap;
+    height: 350px;
+    margin-top: 10%;
+}
+
+.w-50 {
+    width: 50%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.signup {
+    background-color: rgb(196, 74, 74);
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup h4 {
+    margin: unset;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}

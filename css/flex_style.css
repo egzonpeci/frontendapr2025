@@ -1,0 +1,20 @@
+.blog {
+    width: 45%;
+    height: 350px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    margin: 2px;
+    display: flex;
+    flex-direction: column;
+}
+.blog img{
+    width: 50%;
+}
+
+.blogs
+{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    flex-direction: row;
+}
