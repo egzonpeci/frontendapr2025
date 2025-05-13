@@ -1,0 +1,36 @@
+html, body {
+    /* margin: unset; */
+    margin: 0px;
+    font-size: 20px;
+}
+
+.header {
+    height: 20vh;
+    background-color: aqua;
+    /* width: 50vw; */
+}
+
+.header h1 {
+    margin: 0px;
+}
+
+.nav {
+    background-color: aquamarine;
+    height: 15vh;
+}
+
+.main {
+    height: 30vh;
+    background-color: brown;
+}
+
+.footer {
+    height: 35vh;
+    /* background-color: ; */
+    background: linear-gradient(to right, red, black);
+    /* font-size: 200px; */
+}
+
+.font-size {
+    font-size: 1rem;
+}
