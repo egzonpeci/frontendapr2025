@@ -1,0 +1,35 @@
+.comming-soon {
+    position: fixed;
+    background-color: gray;
+    opacity: 0.7;
+    color: white;
+    padding: 20px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(60deg);
+}
+
+
+div.transition {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+    transition-delay: 4s;
+}
+
+div.transition:hover {
+    width: 400px;
+    height: 400px;
+}
+
+div.transition:hover .trans-text {
+    display: block;
+    text-align: right;
+}
+
+
+.trans-text {
+    display: none;
+}

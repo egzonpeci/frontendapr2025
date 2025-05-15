@@ -1,0 +1,24 @@
+html, body {
+    margin: 0px;
+}
+
+.bg-img {
+    background-image: url('../img/img-1.jpeg');
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-x: left;
+    background-position-y: center;
+    background-attachment: fixed;
+
+}
+
+.r-margin {
+    margin: unset;
+}
+
+.bg-img-1
+{
+    background-image: url('../img/login.png');
+}
